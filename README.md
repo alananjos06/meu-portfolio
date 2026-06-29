@@ -2,7 +2,7 @@
 
 Bem-vindo(a) ao repositório do meu portfólio pessoal! Este projeto foi desenvolvido para centralizar minhas principais informações, habilidades, experiências e os projetos que tenho construído na minha jornada como desenvolvedora.
 
-🔗 **Link do projeto online:** [https://meu-portfolio-9a8a7.web.app/](https://meu-portfolio-9a8a7.web.app/)
+🔗 **Link do meu portfolio:** [https://alananjos-dev.web.app/](https://alananjos-dev.web.app/)
 
 ---
 
