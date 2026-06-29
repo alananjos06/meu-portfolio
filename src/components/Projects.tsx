@@ -21,7 +21,7 @@ export default function Projects() {
     {
       title: "FinFreela - Smart Financial Educator",
       description: "Aplicação interativa focada em educação financeira desenvolvida em React. Conta com gerenciamento de estados dinâmicos para controle de fluxos de caixa, interface intuitiva e gráficos focados na experiência do usuário.",
-      tags: ["JavaScript", "Node.js", "SQLite", "React (Vite)", "CSS modules", "LocalStorage"],
+      tags: ["JavaScript", "LocalStorage", "React (Vite)", "CSS modules"],
       github: "https://github.com/alananjos06/educador-financeiro-inteligente",
       live: "https://alananjos06.github.io/educador-financeiro-inteligente/"
     }
@@ -56,7 +56,7 @@ export default function Projects() {
 
  return (
     <section id="projects" className="max-w-5xl mx-auto px-6 py-24 border-t border-zinc-800/50">
-      <p className="text-xs font-semibold tracking-wider text-cyan-400 uppercase mb-2">// PORTFOLIO</p>
+      <p className="text-xs font-semibold tracking-wider text-cyan-400 uppercase mb-2">// PORTFÓLIO</p>
       <h2 className="text-3xl md:text-4xl font-black tracking-tight text-zinc-50 mb-12">Projetos em Destaque</h2>
 
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 w-full" style={{ perspective: '1000px' }}>
