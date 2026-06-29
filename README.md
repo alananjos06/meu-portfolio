@@ -22,9 +22,9 @@ O projeto foi construído utilizando o ecossistema moderno do ecossistema React:
 Se quiser clonar este projeto e rodar na sua máquina, siga os passos abaixo:
 
 1. Clone o repositório:
-   ```bash
-   git clone [https://github.com/SEU_USUARIO_DO_GITHUB/meu-portfolio.git](https://github.com/alananjos06/meu-portfolio.git)
-   ```
+```bash
+git clone[https://github.com/alananjos06/meu-portfolio.git](https://github.com/alananjos06/meu-portfolio.git)
+```
 
 2. Entre na pasta do projeto:
 ```bash
