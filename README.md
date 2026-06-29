@@ -1,36 +1,59 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Meu Portfólio Profissional
 
-## Getting Started
+Bem-vindo(a) ao repositório do meu portfólio pessoal! Este projeto foi desenvolvido para centralizar minhas principais informações, habilidades, experiências e os projetos que tenho construído na minha jornada como desenvolvedora.
 
-First, run the development server:
+🔗 **Link do projeto online:** [https://meu-portfolio-9a8a7.web.app/](https://meu-portfolio-9a8a7.web.app/)
 
+---
+
+## Tecnologias Utilizadas:
+
+O projeto foi construído utilizando o ecossistema moderno do ecossistema React:
+
+*   **Next.js** (Versão 15) com App Router
+*   **TypeScript** para tipagem estática e segurança do código
+*   **Tailwind CSS** para estilização rápida e responsiva
+*   **Firebase Hosting** para deploy e hospedagem estática otimizada
+
+---
+
+## Como rodar o projeto localmente?
+
+Se quiser clonar este projeto e rodar na sua máquina, siga os passos abaixo:
+
+1. Clone o repositório:
+   ```bash
+   git clone [https://github.com/SEU_USUARIO_DO_GITHUB/meu-portfolio.git](https://github.com/alananjos06/meu-portfolio.git)
+   ```
+
+2. Entre na pasta do projeto:
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+cd meu-portfolio
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+3. Instale as dependências:
+```bash
+npm install
+```
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+4. Rode o servidor de desenvolvimento:
+```bash
+npm run dev
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+5.Abra o navegador em http://localhost:3000
 
-## Learn More
+Como é feito o Deploy?
+Este projeto está configurado para exportação estática (output: 'export'). Toda vez que uma nova versão vai ao ar, os seguintes comandos são executados no terminal:
 
-To learn more about Next.js, take a look at the following resources:
+```bash
+npm run build      # Gera a pasta 'out' com os arquivos estáticos
+firebase deploy    # Envia os arquivos para o Firebase Hosting
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Desenvolvido por:
+Alana Anjos
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+LinkedIn: www.linkedin.com/in/alana-anjos-aga222
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+E-mail: anjosa840@gmail.com
