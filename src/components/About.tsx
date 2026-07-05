@@ -38,7 +38,7 @@ export default function About() {
          
           <div className="flex flex-wrap gap-4 pt-4">
             <a 
-              href="/Alana-Anjos-Curriculo.pdf" 
+              href="/Alana_Anjos_Curriculo.pdf" 
               download
               className="px-5 py-2.5 bg-cyan-500/10 border border-cyan-500/30 hover:bg-cyan-500/20 text-cyan-400 font-bold text-sm rounded-lg transition-all duration-300"
             >
