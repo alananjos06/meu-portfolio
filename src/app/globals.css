@@ -8,6 +8,10 @@ body {
   background-size: 40px 40px;
 }
 
+section[id] {
+  scroll-margin-top: 7rem;
+}
+
 @keyframes maskReveal {
   0% {
     transform: translateY(105%);
