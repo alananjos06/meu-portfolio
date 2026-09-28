@@ -13,9 +13,43 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
+const siteUrl = "https://alananjos-dev.web.app";
+const description =
+  "Portfólio de Alana Anjos, desenvolvedora Full Stack e estudante de Sistemas de Informação: projetos com React, Next.js, TypeScript, Django e Docker.";
+
 export const metadata: Metadata = {
-  title: "Alana Anjos | Portfólio",
-  description: "Portfólio de desenvolvimento Full Stack",
+  metadataBase: new URL(siteUrl),
+  title: "Alana Anjos | Desenvolvedora Full Stack",
+  description,
+  alternates: {
+    canonical: "/",
+  },
+  openGraph: {
+    type: "website",
+    locale: "pt_BR",
+    url: siteUrl,
+    siteName: "alananjos.dev",
+    title: "Alana Anjos | Desenvolvedora Full Stack",
+    description,
+    images: [
+      {
+        url: "/og-image.png",
+        width: 1200,
+        height: 630,
+        alt: "Alana Anjos, desenvolvedora Full Stack",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Alana Anjos | Desenvolvedora Full Stack",
+    description,
+    images: ["/og-image.png"],
+  },
+  robots: {
+    index: true,
+    follow: true,
+  },
 };
 
 export default function RootLayout({
