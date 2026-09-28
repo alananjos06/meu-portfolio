@@ -10,7 +10,7 @@ export default function About() {
       </div>
 
       <p className="text-xs font-semibold tracking-wider text-cyan-400 uppercase mb-2">
-        // ABOUT ME
+        {'// ABOUT ME'}
       </p>
 
       <div className="grid grid-cols-1 md:grid-cols-3 gap-12 items-center mt-6 relative z-10">
@@ -61,6 +61,7 @@ export default function About() {
                 src="/alana.jpg" 
                 alt="Alana Anjos"
                 fill
+                sizes="224px"
                 className="object-cover"
               />
             </div>

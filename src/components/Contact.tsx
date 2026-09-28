@@ -1,10 +1,8 @@
-'use client';
-
 export default function Contact() {
   return (
     <section id="contact" className="max-w-5xl mx-auto px-6 py-24 border-t border-zinc-800/50 text-center flex flex-col items-center justify-center">
       <p className="text-xs font-semibold tracking-wider text-cyan-400 uppercase mb-2">
-        // START_CONVERSATION ()
+        {'// START_CONVERSATION ()'}
       </p>
       
       <div className="text-center py-13 border-t border-zinc-800/50">
@@ -24,7 +22,7 @@ export default function Contact() {
     >
       LinkedIn
     </a>
-    <span className="text-zinc-700">|</span>
+    <span aria-hidden="true" className="text-zinc-700">|</span>
     <a 
       href="https://github.com/alananjos06" 
       target="_blank" 
@@ -33,7 +31,7 @@ export default function Contact() {
     >
       GitHub
     </a>
-    <span className="text-zinc-700">|</span>
+    <span aria-hidden="true" className="text-zinc-700">|</span>
     <a 
       href="mailto:anjosa840@gmail.com" 
       className="text-zinc-400 hover:text-cyan-400 transition-colors duration-300"
@@ -42,7 +40,7 @@ export default function Contact() {
     </a>
   </div>
 
-  <p className="text-white text-xs font-mono mt-16">
+  <p className="text-zinc-500 text-xs font-mono mt-16">
     © 2026 alananjos.dev • Built with Next.js & Tailwind CSS
   </p>
 </div>

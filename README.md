@@ -10,7 +10,7 @@ Bem-vindo(a) ao repositório do meu portfólio pessoal! Este projeto foi desenvo
 
 O projeto foi construído utilizando o ecossistema moderno do ecossistema React:
 
-*   **Next.js** (Versão 15) com App Router
+*   **Next.js** (Versão 16) com App Router
 *   **TypeScript** para tipagem estática e segurança do código
 *   **Tailwind CSS** para estilização rápida e responsiva
 *   **Firebase Hosting** para deploy e hospedagem estática otimizada
@@ -23,7 +23,7 @@ Se quiser clonar este projeto e rodar na sua máquina, siga os passos abaixo:
 
 1. Clone o repositório:
 ```bash
-git clone[https://github.com/alananjos06/meu-portfolio.git](https://github.com/alananjos06/meu-portfolio.git)
+git clone https://github.com/alananjos06/meu-portfolio.git
 ```
 
 2. Entre na pasta do projeto:
@@ -41,9 +41,12 @@ npm install
 npm run dev
 ```
 
-5.Abra o navegador em http://localhost:3000
+5. Abra o navegador em http://localhost:3000
 
-Como é feito o Deploy?
+---
+
+## Como é feito o Deploy?
+
 Este projeto está configurado para exportação estática (output: 'export'). Toda vez que uma nova versão vai ao ar, os seguintes comandos são executados no terminal:
 
 ```bash
